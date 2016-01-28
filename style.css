@@ -1,51 +1,78 @@
-/*looks good at tablet (iPad, Galaxy, etc)*/
-body {
-	font-family: Arial;
+/*Default size: big*/
+/*@media all and (max-width: 1400px) and (min-width: 1201px){*/
+	body {
+		font-family: Arial;
 
-}
-.jumbotron {
-	background-image: url("inkblotblue.jpg");
-	/*background-position: center;*/
-	height: 80vh;
-	color: #f215f2;
-	text-align: center;
-	width: 100%;
-}
-.jumbotron h1 {
-	font-size: 400%;
-	padding-top: 14%;
-}
-.navbar a {
-	text-decoration: none;
-	color: #5C8FB5;
-	font-weight: bold;
-}
-.navbar li{
-	list-style-type: none;
-	display: inline-block;
-}
-.container-col {
-	padding: 10px;
-}
-.col-md-4 {
-	color: slategrey;
-	margin: 20px;
-	width: 30%;
-	float: left;
-}
-.col-md-4 img{
-	border-radius: 8px;
-}
-.col-md-4 h3 {
-	color: sienna;
-}
-
-
+	}
+	.mq-sm {
+		display: none;
+	}
+	.jumbotron {
+		background-image: url("inkblotblue.jpg");
+		height: 75vh;
+		color: #f215f2;
+		text-align: center;
+		width: 100vw;
+	}
+	.jumbotron h1 {
+		font-size: 400%;
+		padding-top: 14%;
+	}
+	.nav-links {
+		margin-left: 75%;
+	}
+	.navbar a {
+		text-decoration: none;
+		color: #66CCFF;
+		font-weight: bold;
+	}
+	.navbar li {
+		list-style-type: none;
+		display: inline-block;
+		margin-left: 25px;
+		padding-top: 15px;
+	}
+	.container-col {
+		padding: 9px;
+	}
+	.col-md-4 {
+		color: slategrey;
+		margin-left: 80px;
+		padding-top: 20px;
+		width: 25%;
+		float: left;
+	}
+	.col-md-4 img{
+		border-radius: 8px;
+	}
+	.col-md-4 h3 {
+		color: sienna;
+	}
+/*}*/
+/*Laptops, medium screens*/
+/*@media all and (max-width: 1000px ) and (min-width: 769px) {*/
+/*	.jumbotron {
+		height: 30vh;
+		background-position: center;
+	}
+	.jumbotron h1 {
+		padding: 20px;
+	}*/
+		
+	/*.container-col {*/
+		/*padding: 3%;*/
+	/*}
+	.col-md-4 {
+		color: slategrey;
+		margin-left: 5%;
+		padding: 35px;
+		width: 18%;*/
+	/*}*/
 
 /*Tablets*/
-@media all and (max-width: 768px) {
+/*@media all and (max-width:768px) and (min-width: 481px){*/
 
-	.jumbotron {
+/*	.jumbotron {
 		height: 10vh;
 		background-position: center;
 	}
@@ -54,10 +81,7 @@ body {
 		padding: 0;
 
 	}
-	.navbar li{
 
-
-	}
 	.navbar a{
 		float: right;
 
@@ -72,14 +96,43 @@ body {
 	}
 	.col-md-4 img{
 		border-radius: 0px;
-	}
-
-}
+	}*/
+/*}*/
 
 /*(iPhone, Android, etc.)*/
-@media all and (max-width: 480px) {
+/*@media all and (max-width: 480px) and (min-width: 320px) {*/
+/*	.jumbotron {
+		display: none;
+	}
+	.mq-sm {
+		display: inline;
 
-}
+	}
+	.mq-sm h1 {
+		text-align: left;
+		color: #f215f2;
+		font-size: 100%;
+	}
+
+	.navbar ul{
+		float: right;
+		position: fixed;
+		word-spacing: 10px;
+	}
+
+	.container-col {
+		/*width: 100%;*/
+	/*}
+	.col-md-4 {
+		color: slategrey;
+		margin-left: 5%;
+		width: 20%;
+	}
+	.col-md-4 img{
+		display: none;
+	}*/
+
+/*}*/
 
 
 
