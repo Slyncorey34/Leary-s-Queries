@@ -1,0 +1,92 @@
+/*looks good at tablet (iPad, Galaxy, etc)*/
+body {
+	font-family: Arial;
+
+}
+.jumbotron {
+	background-image: url("inkblotblue.jpg");
+	/*background-position: center;*/
+	height: 80vh;
+	color: #f215f2;
+	text-align: center;
+	width: 100%;
+}
+.jumbotron h1 {
+	font-size: 400%;
+	padding-top: 14%;
+}
+.navbar a {
+	text-decoration: none;
+	color: #5C8FB5;
+	font-weight: bold;
+}
+.navbar li{
+	list-style-type: none;
+	display: inline-block;
+}
+.container-col {
+	padding: 10px;
+}
+.col-md-4 {
+	color: slategrey;
+	margin: 20px;
+	width: 30%;
+	float: left;
+}
+.col-md-4 img{
+	border-radius: 8px;
+}
+.col-md-4 h3 {
+	color: sienna;
+}
+
+
+
+/*Tablets*/
+@media all and (max-width: 768px) {
+
+	.jumbotron {
+		height: 10vh;
+		background-position: center;
+	}
+	.jumbotron h1 {
+		font-size: 200%;
+		padding: 0;
+
+	}
+	.navbar li{
+
+
+	}
+	.navbar a{
+		float: right;
+
+	}
+	.container-col {
+		width: 100%;
+	}
+	.col-md-4 {
+		color: slategrey;
+		margin-left: 20%;
+		width: 55%;
+	}
+	.col-md-4 img{
+		border-radius: 0px;
+	}
+
+}
+
+/*(iPhone, Android, etc.)*/
+@media all and (max-width: 480px) {
+
+}
+
+
+
+
+
+
+
+
+
+
