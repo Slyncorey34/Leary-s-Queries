@@ -18,6 +18,13 @@
 		font-size: 400%;
 		padding-top: 14%;
 	}
+		
+	.navbar-brand {
+	  float: left;
+	  height: 50px;
+	  line-height: 20px;
+	  color: sienna;	
+	}
 	.nav-links {
 		margin-left: 75%;
 	}
