@@ -1,5 +1,5 @@
 /*Default size: big*/
-/*@media all and (max-width: 1400px) and (min-width: 1201px){*/
+/*@media all and (max-width: 1400px) and (min-width: 1000px){*/
 	body {
 		font-family: Arial;
 
@@ -52,58 +52,86 @@
 	.col-md-4 img{
 		border-radius: 8px;
 	}
-	.col-md-4 h3 {
+	.col-md-4 h2 {
 		color: sienna;
 	}
 /*}*/
 /*Laptops, medium screens*/
-/*@media all and (max-width: 1000px ) and (min-width: 769px) {*/
-/*	.jumbotron {
-		height: 30vh;
-		background-position: center;
+@media all and (max-width: 900px ) and (min-width: 745px) {
+	.jumbotron {
+		height: 40vh;
+		/*background-position: center;*/
+	/*}*/
+	/*.jumbotron h1 {*/
+		/*padding: 20px;*/
 	}
-	.jumbotron h1 {
-		padding: 20px;
-	}*/
+
 		
 	/*.container-col {*/
-		/*padding: 3%;*/
-	/*}
-	.col-md-4 {
-		color: slategrey;
-		margin-left: 5%;
-		padding: 35px;
-		width: 18%;*/
+		/*padding: 0;*/
+		/*margin: 0;*/
+		/*width: 100%;*/
 	/*}*/
-
+	.col-md-4 {
+		/*color: slategrey;*/
+		/*margin:20px; */
+		padding-left: 10%;
+		margin-right: 10%;
+		width: 60%;
+	}
+}
+/*}*/
 /*Tablets*/
-/*@media all and (max-width:768px) and (min-width: 481px){*/
+@media all and (max-width:739px) and (min-width: 481px){
 
-/*	.jumbotron {
-		height: 10vh;
-		background-position: center;
+	.jumbotron {
+		display: none;
+		/*height: 10vh;*/
+		/*background-position: center;*/
 	}
 	.jumbotron h1 {
 		font-size: 200%;
 		padding: 0;
-
 	}
 
-	.navbar a{
-		float: right;
-
+	.navbar {
+		background-image: url("inkblotblue.jpg");
 	}
-	.container-col {
-		width: 100%;
+	.navbar a {
+		text-decoration: none;
+		color: #66CCFF;
+		font-weight: bold;
+	}
+	.navbar li {
+		list-style-type: none;
+		display: inline-block;
+		margin-left: 25px;
+		/*padding-top: 15px;*/
+	}
+
+
+
+
+	.navbar-brand {
+	  display: none;	
+	}
+	/*.container-col {
+		width: 100%;*/
 	}
 	.col-md-4 {
 		color: slategrey;
 		margin-left: 20%;
 		width: 55%;
 	}
-	.col-md-4 img{
-		border-radius: 0px;
-	}*/
+	.navbar li {
+		list-style-type: none;
+		display: inline-block;
+		/*margin-left: 25px;*/
+		/*padding-top: 15px;*/
+	}
+	/*.col-md-4 img{
+		border-radius: 0px*/
+	}
 /*}*/
 
 /*(iPhone, Android, etc.)*/
