@@ -82,21 +82,20 @@
 }
 /*}*/
 /*Tablets*/
-@media all and (max-width:739px) and (min-width: 481px){
+@media all and (max-width:744px) and (min-width: 481px) {
 
 	.jumbotron {
 		display: none;
-		/*height: 10vh;*/
+		/*height: 20vh;*/
 		/*background-position: center;*/
 	}
 	.jumbotron h1 {
-		font-size: 200%;
-		padding: 0;
+		display: none;	
 	}
 
-	.navbar {
-		background-image: url("inkblotblue.jpg");
-	}
+	/*.navbar {*/
+		/*background-image: url("inkblotblue.jpg");*/
+	/*}*/
 	.navbar a {
 		text-decoration: none;
 		color: #66CCFF;
@@ -105,11 +104,24 @@
 	.navbar li {
 		list-style-type: none;
 		display: inline-block;
-		margin-left: 25px;
+		/*margin-left: 25px;*/
 		/*padding-top: 15px;*/
 	}
 
+	#mq-sm {
+		border: 1px solid red;
+		display: inline-block;
+		float: left;
+	
+	}
 
+	#mq-sm a{
+		float: left;
+		margin-right: 40%px;
+		width: 100%;
+		color: #fff;
+
+	}
 
 
 	.navbar-brand {
@@ -117,7 +129,7 @@
 	}
 	/*.container-col {
 		width: 100%;*/
-	}
+	
 	.col-md-4 {
 		color: slategrey;
 		margin-left: 20%;
@@ -132,6 +144,7 @@
 	/*.col-md-4 img{
 		border-radius: 0px*/
 	}
+
 /*}*/
 
 /*(iPhone, Android, etc.)*/
